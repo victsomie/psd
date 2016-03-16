@@ -186,3 +186,19 @@ blockquote:after {
     background-repeat: no-repeat;        
 }
 
+
+.ads{
+    text-align: center;
+    width: 600px;
+    height: 120px;
+    background-color: yellow;
+    margin: auto;
+    position:  relative;
+}
+
+.ads p{
+    padding-top: 40px
+}
+
+
+
