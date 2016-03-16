@@ -87,6 +87,42 @@ footer{
     text-align: center;
 }
 
+/*====================TYPOGRAPHY===============*/
+h1{
+    font-weight: 900;
+}
+h2{
+    font-weight: 600;
+}
+h3{
+    font-weight: 400;
+}
+
+
+blockquote{
+  border-leftt: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+    text-align: center;
+    float: left;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
 
 /*============Define other styling here=====================*/
 
@@ -110,9 +146,6 @@ footer{
 }
 
 
-
-
-
 .lead{
     background-image: url(/images/big_img.jpg);
     background-size: 100% 100%;
@@ -129,6 +162,14 @@ footer{
 }
 
 
+.btn{
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    background-color: dimgray;
+    padding: 5px 20px 5px 20px;;
+}
 
 
 
